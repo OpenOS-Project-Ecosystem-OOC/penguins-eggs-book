@@ -264,7 +264,14 @@ crew install penguins-eggs
 
 ## Reference documentation
 
-Full directory and file reference for all ChromiumOS-specific code:
+Full directory and file reference for all ChromiumOS-specific code.
+The reference docs are automatically synced from `penguins-eggs/docs/chromiumos/`
+into this book whenever they change:
 
-- [docs/chromiumos/README.md](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.md) — 18 directories and 49 files, grouped by category
-- [docs/chromiumos/README.pdf](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf) — PDF version
+- [chromiumos/README.md](chromiumos/README.md) — 18 directories and 49 files, grouped by category (synced copy, always current)
+- [chromiumos/README.pdf](chromiumos/README.pdf) — PDF version (synced copy)
+
+Source in penguins-eggs:
+
+- [docs/chromiumos/README.md](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.md)
+- [docs/chromiumos/README.pdf](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf)
