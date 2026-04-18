@@ -94,7 +94,7 @@ sudo eggs love --dtbdir /path/to/dtbs
 ## Recovery tools integration
 
 The `--recovery` flag on `eggs produce` layers
-[penguins-recovery](https://github.com/Interested-Deving-1896/penguins-recovery)
+[penguins-recovery](https://gitlab.com/OSPF1896/penguins-recovery)
 tools onto the produced ISO, turning it into a rescue medium without a separate
 build step:
 
@@ -146,7 +146,7 @@ See Chapter 13 for the full Android guide.
 
 ## AI assistant (eggs-ai)
 
-[eggs-ai](https://github.com/Interested-Deving-1896/eggs-ai) is an AI agent
+[eggs-ai](https://gitlab.com/OSPF1896/eggs-ai) is an AI agent
 that understands penguins-eggs commands, configurations, and workflows. It
 provides diagnostics, guided ISO building, config generation, Calamares
 assistance, and general Q&A. It supports 7 LLM providers including local Ollama
@@ -155,7 +155,7 @@ Cursor, Claude Desktop, and other AI agents. See Chapter 11.
 
 ## Unified GUI (eggs-gui)
 
-[eggs-gui](https://github.com/Interested-Deving-1896/eggs-gui) is a unified
+[eggs-gui](https://gitlab.com/OSPF1896/eggs-gui) is a unified
 graphical frontend for penguins-eggs with three interface options:
 
 - **BubbleTea TUI** (Go) — terminal power users and SSH sessions
@@ -181,10 +181,10 @@ See Chapter 15 for full details.
 
 The `all-features` branch integrates four companion tools:
 
-- **[penguins-recovery](https://github.com/Interested-Deving-1896/penguins-recovery)** — unified rescue toolkit supporting 6 distro families
-- **[penguins-powerwash](https://github.com/Interested-Deving-1896/penguins-powerwash)** — factory reset with soft/medium/hard/sysprep/hardware modes
-- **[penguins-immutable-framework](https://github.com/Interested-Deving-1896/penguins-immutable-framework)** — immutable Linux framework (abroot, ashos, frzr, akshara, btrfs-dwarfs backends)
-- **[penguins-kernel-manager](https://github.com/Interested-Deving-1896/penguins-kernel-manager)** — full kernel lifecycle management across all major distributions
+- **[penguins-recovery](https://gitlab.com/OSPF1896/penguins-recovery)** — unified rescue toolkit supporting 6 distro families
+- **[penguins-powerwash](https://gitlab.com/OSPF1896/penguins-powerwash)** — factory reset with soft/medium/hard/sysprep/hardware modes
+- **[penguins-immutable-framework](https://gitlab.com/OSPF1896/penguins-immutable-framework)** — immutable Linux framework (abroot, ashos, frzr, akshara, btrfs-dwarfs backends)
+- **[penguins-kernel-manager](https://gitlab.com/OSPF1896/penguins-kernel-manager)** — full kernel lifecycle management across all major distributions
 
 See Chapter 14 for the full integrations guide.
 

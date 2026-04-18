@@ -128,11 +128,11 @@ See Chapter 6 for the `love.yaml` configuration format.
 
 ## Installing eggs-ai (AI assistant)
 
-[eggs-ai](https://github.com/Interested-Deving-1896/eggs-ai) is an optional AI
+[eggs-ai](https://gitlab.com/OSPF1896/eggs-ai) is an optional AI
 assistant for penguins-eggs. It requires Node.js 18+.
 
 ```
-git clone https://github.com/Interested-Deving-1896/eggs-ai
+git clone https://gitlab.com/OSPF1896/eggs-ai
 cd eggs-ai
 npm install
 npm run build
@@ -162,7 +162,7 @@ documentation.
 
 ## Installing eggs-gui (unified GUI)
 
-[eggs-gui](https://github.com/Interested-Deving-1896/eggs-gui) provides TUI,
+[eggs-gui](https://gitlab.com/OSPF1896/eggs-gui) provides TUI,
 desktop, and web frontends for penguins-eggs. Prerequisites vary by frontend:
 
 - Go 1.22+ (daemon and TUI)
@@ -170,7 +170,7 @@ desktop, and web frontends for penguins-eggs. Prerequisites vary by frontend:
 - Python 3.11+ (web, optional)
 
 ```
-git clone https://github.com/Interested-Deving-1896/eggs-gui
+git clone https://gitlab.com/OSPF1896/eggs-gui
 cd eggs-gui
 make all
 ```

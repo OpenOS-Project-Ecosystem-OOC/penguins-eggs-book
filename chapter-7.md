@@ -134,7 +134,7 @@ sudo eggs produce --recovery --recovery-gui=full --recovery-rescapp
 ```
 
 The `--recovery` flag downloads
-[penguins-recovery](https://github.com/Interested-Deving-1896/penguins-recovery)
+[penguins-recovery](https://gitlab.com/OSPF1896/penguins-recovery)
 if not already present and runs the adapter script to inject recovery tools into
 the ISO. The output file is named `<original-name>-recovery.iso`.
 

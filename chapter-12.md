@@ -2,7 +2,7 @@
 
 # eggs-gui: unified GUI for penguins-eggs
 
-[eggs-gui](https://github.com/Interested-Deving-1896/eggs-gui) is a unified
+[eggs-gui](https://gitlab.com/OSPF1896/eggs-gui) is a unified
 graphical frontend for penguins-eggs. It merges three existing projects
 ([pengui](https://github.com/pieroproietti/pengui),
 [eggsmaker](https://github.com/pieroproietti/eggsmaker), and
@@ -66,7 +66,7 @@ The daemon exposes JSON-RPC methods grouped by domain:
 ### Build
 
 ```
-git clone https://github.com/Interested-Deving-1896/eggs-gui
+git clone https://gitlab.com/OSPF1896/eggs-gui
 cd eggs-gui
 make all
 ```

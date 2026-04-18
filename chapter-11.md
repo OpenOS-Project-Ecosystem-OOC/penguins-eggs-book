@@ -2,7 +2,7 @@
 
 # eggs-ai: AI assistant for penguins-eggs
 
-[eggs-ai](https://github.com/Interested-Deving-1896/eggs-ai) is an AI agent
+[eggs-ai](https://gitlab.com/OSPF1896/eggs-ai) is an AI agent
 that understands penguins-eggs commands, configurations, and workflows. It
 provides diagnostics, guided ISO building, config generation, Calamares
 troubleshooting, and general Q&A — all from the command line.
@@ -14,7 +14,7 @@ eggs-ai is optional. penguins-eggs works without it.
 Requirements: Node.js 18+.
 
 ```
-git clone https://github.com/Interested-Deving-1896/eggs-ai
+git clone https://gitlab.com/OSPF1896/eggs-ai
 cd eggs-ai
 npm install
 npm run build

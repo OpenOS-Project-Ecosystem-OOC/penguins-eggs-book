@@ -246,7 +246,7 @@ installation via `emerge` in stage3 containers and cros_sdk chroots:
 
 ```bash
 # Add the overlay (in a stage3 container or cros_sdk chroot)
-eselect repository add penguins-eggs git https://github.com/Interested-Deving-1896/penguins-eggs.git
+eselect repository add penguins-eggs git https://gitlab.com/OSPF1896/penguins-eggs.git
 emaint sync -r penguins-eggs
 
 # Install
@@ -273,5 +273,5 @@ into this book whenever they change:
 
 Source in penguins-eggs:
 
-- [docs/chromiumos/README.md](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.md)
-- [docs/chromiumos/README.pdf](https://github.com/Interested-Deving-1896/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf)
+- [docs/chromiumos/README.md](https://gitlab.com/OSPF1896/penguins-eggs/blob/all-features/docs/chromiumos/README.md)
+- [docs/chromiumos/README.pdf](https://gitlab.com/OSPF1896/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf)
