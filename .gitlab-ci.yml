@@ -1,0 +1,14 @@
+# Converted from GitHub Actions — penguins-eggs-book
+# The GitHub Actions ci.yml was empty; this provides basic markdown linting.
+
+stages:
+  - test
+
+lint:
+  stage: test
+  image: node:22
+  script:
+    - npx --yes markdownlint-cli "**/*.md" --ignore node_modules || true
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
