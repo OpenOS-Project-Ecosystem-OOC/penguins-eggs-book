@@ -18,7 +18,7 @@ registers itself as an eggs plugin so its state is embedded into produced ISOs.
 
 ## penguins-recovery
 
-[penguins-recovery](https://gitlab.com/OSPF1896/penguins-recovery)
+[penguins-recovery](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-recovery)
 is a unified Linux system recovery toolkit. It layers recovery tools onto any
 penguins-eggs naked ISO and supports six distro families.
 
@@ -83,7 +83,7 @@ on `eggs produce`, or with `RESCAPP=1` on the adapter.
 ### Installation
 
 ```
-git clone https://gitlab.com/OSPF1896/penguins-recovery
+git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-recovery
 cd penguins-recovery
 sudo make install
 ```
@@ -92,7 +92,7 @@ sudo make install
 
 ## penguins-powerwash
 
-[penguins-powerwash](https://gitlab.com/OSPF1896/penguins-powerwash)
+[penguins-powerwash](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-powerwash)
 is a distro-agnostic, filesystem-agnostic factory reset tool for Linux.
 
 ### Reset modes
@@ -151,7 +151,7 @@ and config into produced ISOs and adds a "Factory Reset" GRUB menu entry.
 ### Installation
 
 ```
-git clone https://gitlab.com/OSPF1896/penguins-powerwash
+git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-powerwash
 cd penguins-powerwash
 sudo make install
 ```
@@ -160,7 +160,7 @@ sudo make install
 
 ## penguins-immutable-framework (PIF)
 
-[penguins-immutable-framework](https://gitlab.com/OSPF1896/penguins-immutable-framework)
+[penguins-immutable-framework](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-immutable-framework)
 is a distro-agnostic framework for building immutable Linux distributions. It
 provides a unified CLI and HAL over multiple immutability backends.
 
@@ -222,7 +222,7 @@ pre_rollback_snapshot = true
 
 ## penguins-kernel-manager (PKM)
 
-[penguins-kernel-manager](https://gitlab.com/OSPF1896/penguins-kernel-manager)
+[penguins-kernel-manager](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-kernel-manager)
 manages the full Linux kernel lifecycle — fetch, patch, configure, compile,
 package, install, hold, and remove — across all major distributions and CPU
 architectures.
@@ -290,7 +290,7 @@ post_remove_old_sync = false  # set true to rebuild ISO automatically
 ### Installation
 
 ```
-git clone https://gitlab.com/OSPF1896/penguins-kernel-manager
+git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-kernel-manager
 cd penguins-kernel-manager
 sudo make install
 ```
@@ -301,7 +301,7 @@ sudo make install
 
 [penguins-incus-hub](https://gitlab.com/OSPF1896/penguins-eggs/tree/all-features/integrations/penguins-incus-hub)
 is the integration layer connecting
-[penguins-incus-platform](https://gitlab.com/OSPF1896/penguins-incus-platform)
+[penguins-incus-platform](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-incus-platform)
 (PIP) with penguins-eggs.
 
 PIP is a unified Incus container and VM management platform with three
@@ -393,7 +393,7 @@ The web UI is also available at `http://localhost:8765` once the daemon starts.
 
 ```
 # 1. Install penguins-incus-platform
-git clone https://gitlab.com/OSPF1896/penguins-incus-platform
+git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-incus-platform
 cd penguins-incus-platform
 pip install -e "penguins-incus-platform/daemon[dev]"
 pip install -e "penguins-incus-platform/cli[dev]"

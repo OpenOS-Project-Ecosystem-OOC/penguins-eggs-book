@@ -100,7 +100,7 @@ produce:
 
 ## eggs-ai configuration (~/.eggs-ai.yaml)
 
-[eggs-ai](https://gitlab.com/OSPF1896/eggs-ai) uses
+[eggs-ai](https://gitlab.com/openos-project/penguins-eggs_deving/eggs-ai) uses
 `~/.eggs-ai.yaml` to configure LLM providers. Generate a sample file with:
 
 ```
@@ -151,7 +151,7 @@ See Chapter 11 for the full eggs-ai guide.
 
 ## eggs-gui daemon configuration
 
-[eggs-gui](https://gitlab.com/OSPF1896/eggs-gui) communicates
+[eggs-gui](https://gitlab.com/openos-project/penguins-eggs_deving/eggs-gui) communicates
 via a Unix socket at `/tmp/eggs-gui.sock`. The daemon reads the standard
 `eggs.yaml` and `tools.yaml` files — no separate daemon config is required.
 

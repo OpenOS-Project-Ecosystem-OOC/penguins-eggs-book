@@ -246,7 +246,7 @@ installation via `emerge` in stage3 containers and cros_sdk chroots:
 
 ```bash
 # Add the overlay (in a stage3 container or cros_sdk chroot)
-eselect repository add penguins-eggs git https://gitlab.com/OSPF1896/penguins-eggs.git
+eselect repository add penguins-eggs git https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs.git
 emaint sync -r penguins-eggs
 
 # Install
