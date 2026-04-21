@@ -1,7 +1,7 @@
 # penguins-eggs-book
 
 I'm reporting here that my friend [Hossein Seilany
-](https://github.com/hosseinseilani) (https://seilany.ir/) wrote about my remastering tool [penguins-eggs](https://github.com/pieroproietti/penguins-eggs), integrating with mine know how.
+](https://github.com/hosseinseilani) (https://seilany.ir/) wrote about my remastering tool [penguins-eggs](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs), integrating with mine know how.
 
 This is not the first book for Hossein Seilany, but it's the first for me and for me it's really hard.
 
@@ -18,11 +18,11 @@ The book will automatically synk after your push, you can see it [here](https://
 
 ## Repository
 
-`https://github.com/pieroproietti/penguins-eggs-book`
+`https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs-book`
 
 ### cloning the book
 
-`git clone https://github.com/pieroproietti/penguins-eggs-book`
+`git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs-book`
 
 ### read the book
 
