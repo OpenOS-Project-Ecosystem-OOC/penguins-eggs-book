@@ -299,7 +299,7 @@ sudo make install
 
 ## penguins-incus-hub
 
-[penguins-incus-hub](https://gitlab.com/OSPF1896/penguins-eggs/tree/all-features/integrations/penguins-incus-hub)
+[penguins-incus-hub](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs/tree/all-features/integrations/penguins-incus-hub)
 is the integration layer connecting
 [penguins-incus-platform](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-incus-platform)
 (PIP) with penguins-eggs.

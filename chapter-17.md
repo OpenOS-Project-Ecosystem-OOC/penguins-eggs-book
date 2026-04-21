@@ -273,5 +273,5 @@ into this book whenever they change:
 
 Source in penguins-eggs:
 
-- [docs/chromiumos/README.md](https://gitlab.com/OSPF1896/penguins-eggs/blob/all-features/docs/chromiumos/README.md)
-- [docs/chromiumos/README.pdf](https://gitlab.com/OSPF1896/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf)
+- [docs/chromiumos/README.md](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs/blob/all-features/docs/chromiumos/README.md)
+- [docs/chromiumos/README.pdf](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs/blob/all-features/docs/chromiumos/README.pdf)
