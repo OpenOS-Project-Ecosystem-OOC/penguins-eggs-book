@@ -4,8 +4,8 @@
 
 [eggs-gui](https://gitlab.com/openos-project/penguins-eggs_deving/eggs-gui) is a unified
 graphical frontend for penguins-eggs. It merges three existing projects
-([pengui](https://github.com/pieroproietti/pengui),
-[eggsmaker](https://github.com/pieroproietti/eggsmaker), and
+([pengui](https://github.com/OpenOS-Project-Ecosystem-OOC/pengui),
+[eggsmaker](https://github.com/OpenOS-Project-Ecosystem-OOC/eggsmaker), and
 [eggsmaker fork](https://github.com/jlendres/eggsmaker)) into one system with a
 shared Go backend and three frontend options.
 
@@ -160,6 +160,6 @@ without leaving the GUI.
 
 ## Credits
 
-- [pengui](https://github.com/pieroproietti/pengui) by Piero Proietti — PySide6 GUI
-- [eggsmaker](https://github.com/pieroproietti/eggsmaker) by Jorge Luis Endres — customtkinter GUI
+- [pengui](https://github.com/OpenOS-Project-Ecosystem-OOC/pengui) by Piero Proietti — PySide6 GUI
+- [eggsmaker](https://github.com/OpenOS-Project-Ecosystem-OOC/eggsmaker) by Jorge Luis Endres — customtkinter GUI
 - [eggsmaker fork](https://github.com/jlendres/eggsmaker) by Jorge Luis Endres — enhanced + web UI
