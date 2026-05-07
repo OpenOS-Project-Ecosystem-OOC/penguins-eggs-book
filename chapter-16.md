@@ -143,7 +143,7 @@ built-in display is the only output available during early boot.
 ### Useful references
 
 - [Bianbu multiboot guide](https://www.workswithriscv.guide/wiki/hardware/K1/bianbu-multiboot.html)
-- [penguins-eggs repository](https://github.com/pieroproietti/penguins-eggs)
+- [penguins-eggs repository](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs)
 - [ISO downloads](https://sourceforge.net/projects/penguins-eggs/files/Isos/)
 
 ### Contributing
@@ -157,4 +157,4 @@ help is needed:
 - Testing the 6-partition layout with different bootloader configurations
 
 Open issues and discussion on the
-[penguins-eggs repository](https://github.com/pieroproietti/penguins-eggs).
+[penguins-eggs repository](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs).
