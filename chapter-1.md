@@ -12,7 +12,7 @@ With penguins' eggs, you can create an installable live ISO of your system,
 complete with all installed applications and configurations. The tool also
 supports offline installation, scripting mode for automated ISO management,
 and full visual customization of the live environment and Calamares installer
-via [penguins-wardrobe](https://github.com/pieroproietti/penguins-wardrobe).
+via [penguins-wardrobe](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe).
 
 The `all-features` branch expands penguins-eggs from a single remastering CLI
 into a full ecosystem: an AI assistant, a unified GUI, Android image production,
@@ -228,8 +228,8 @@ system.
 
 # More information
 
-- [CHANGELOG](https://github.com/pieroproietti/penguins-eggs/blob/master/CHANGELOG.md)
-- [penguins-eggs repository](https://github.com/pieroproietti/penguins-eggs)
+- [CHANGELOG](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs/blob/master/CHANGELOG.md)
+- [penguins-eggs repository](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs)
 - [penguins-eggs website](https://penguins-eggs.net)
 
 ![](media/chapter-1/penguins-eggs-net.png)
