@@ -7,7 +7,7 @@
 penguins-eggs is the package name of the package containing the eggs tool.
 
 There are multiple ways to install penguins-eggs. The most practical is
-[get-eggs](https://github.com/pieroproietti/get-eggs), but several alternatives
+[get-eggs](https://github.com/OpenOS-Project-Ecosystem-OOC/get-eggs), but several alternatives
 exist depending on your distribution and preferences.
 
 ## Method 1: using `get-eggs` (Arch/Debian/Devuan/Ubuntu)
@@ -26,14 +26,14 @@ sudo pacman -Sy git        # Arch
 Then:
 
 ```
-git clone https://github.com/pieroproietti/get-eggs
+git clone https://github.com/OpenOS-Project-Ecosystem-OOC/get-eggs
 cd get-eggs
 sudo ./get-eggs
 ```
 
 On Arch Linux, `get-eggs` adds the [chaotic-aur](https://aur.chaotic.cx/)
 repository. On Debian-based systems it adds
-[penguins-eggs-ppa](https://github.com/pieroproietti/penguins-eggs-ppa). It
+[penguins-eggs-ppa](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs-ppa). It
 also adds the [nodesource repository](https://github.com/nodesource/distributions)
 when Node.js > 18 is not available in the distro's own repositories.
 
@@ -208,7 +208,7 @@ sudo npm i pnpm -g
 Clone and build:
 
 ```
-git clone https://github.com/pieroproietti/penguins-eggs
+git clone https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs
 cd penguins-eggs
 sudo pnpm install
 ```
