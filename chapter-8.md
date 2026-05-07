@@ -82,9 +82,9 @@ To show a wardrobe sample, I will refere to mine `colibri`, a customization I us
 
 
 # costumes
-A costume essentially consists of a directory named with the name of the costume and a yaml file. eg: [debian.yaml](https://github.com/pieroproietti/penguins-wardrobe/blob/main/costumes/colibri/debian.yml).
+A costume essentially consists of a directory named with the name of the costume and a yaml file. eg: [debian.yaml](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe/blob/main/costumes/colibri/debian.yml).
 
-`debian.yaml` specifies the composition of the costume, at its definition we find it in [i-materia.ts](https://github.com/pieroproietti/penguins-eggs/blob/master/src/interfaces/i-materia.ts), and it is parsed by the eggs [tailor.ts](https://github.com/pieroproietti/penguins-eggs/blob/master/src/classes/tailor.ts)class. 
+`debian.yaml` specifies the composition of the costume, at its definition we find it in [i-materia.ts](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs/blob/master/src/interfaces/i-materia.ts), and it is parsed by the eggs [tailor.ts](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs/blob/master/src/classes/tailor.ts)class. 
 
 Basically, we provide the directions and the tailor sews the suit for us.
 
@@ -251,7 +251,7 @@ Simply put all in a directory called `./dirs`, inside our `colibri`:
          + usr   + backgrounds  + colibri
         
 ```
-You can browse in on the [colibri](https://github.com/pieroproietti/penguins-wardrobe/tree/main/costumes/colibri/dirs) and it's not pratical? I think yes, all our customizations, at the price of a little and light directory structure.
+You can browse in on the [colibri](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe/tree/main/costumes/colibri/dirs) and it's not pratical? I think yes, all our customizations, at the price of a little and light directory structure.
 
 ### `hostname`
 If `hostname` is `true` file `/etc/hostname` and `/etc/hosts` will be updated to the name of costume, in ourt case `colibri`.
@@ -299,7 +299,7 @@ vendor-name/
 
 # /vendors/[vendor-name]/theme
 
-The [vendors](https://github.com/pieroproietti/penguins-wardrobe/tree/main/vendors) directory contains [vemdors] who can thus include their own themes in the wardrobe structure.
+The [vendors](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe/tree/main/vendors) directory contains [vemdors] who can thus include their own themes in the wardrobe structure.
 
 The theme directory is just the container for everything, the root so to speak of the theme itself.
 
@@ -344,7 +344,7 @@ Refer to the calamares site for reference information on configuring these files
     * `calamares`
       * `branding`
 
-In [branding](https://github.com/pieroproietti/penguins-wardrobe/tree/main/vendors/neon/theme/calamares/branding) are the customizations for calamares. Generally present, but not mandatory, is the `show.qml` file and images that must scroll during installation.
+In [branding](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe/tree/main/vendors/neon/theme/calamares/branding) are the customizations for calamares. Generally present, but not mandatory, is the `show.qml` file and images that must scroll during installation.
 
 #### `modules`
 
@@ -364,7 +364,7 @@ In [branding](https://github.com/pieroproietti/penguins-wardrobe/tree/main/vendo
   * `theme`
     * `livecd`
 
-[livecd](https://github.com/pieroproietti/penguins-wardrobe/tree/main/vendors/neon/theme/livecd) contain `splash.png` ed i file: `grub.theme,cfg` ed `isolinux.theme.cfg`.
+[livecd](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe/tree/main/vendors/neon/theme/livecd) contain `splash.png` ed i file: `grub.theme,cfg` ed `isolinux.theme.cfg`.
 
 # Others distros
 
@@ -381,6 +381,6 @@ Ubuntu, recently with the noble version changed the method of writing components
 
 This affects the smooth operation of wardorbe, which adds and modifies repositories as needed.
 
-There would thus need to be continuous maintenance, both of the [tailor.ts](https://github.com/pieroproietti/penguins-eggs/blob/master/src/classes/tailor.ts) and the [penguins-wardrobe](https://github.com/pieroproietti/penguins-wardrobe) repository, which also depends on your response and participation in the project.
+There would thus need to be continuous maintenance, both of the [tailor.ts](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-eggs/blob/master/src/classes/tailor.ts) and the [penguins-wardrobe](https://github.com/OpenOS-Project-Ecosystem-OOC/penguins-wardrobe) repository, which also depends on your response and participation in the project.
 
 The `colibru` costume is well tested and continuously updated, but I cannot say the same for other costumes or for Ubuntu noble.
