@@ -32,3 +32,8 @@ This is it's address: `https://penguins-eggs.gitbook.io/penguins-eggs-book`
 
  
 
+## Origins
+
+penguins-eggs-book documents:
+- [pieroproietti/penguins-eggs](https://github.com/pieroproietti/penguins-eggs) — the tool this book covers
+- [hosseinseilani/penguins-eggs-book](https://github.com/hosseinseilani/penguins-eggs-book) — original book authored by Hossein Seilany
