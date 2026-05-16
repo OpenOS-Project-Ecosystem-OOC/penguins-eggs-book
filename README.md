@@ -1,39 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # penguins-eggs-book
 
-I'm reporting here that my friend [Hossein Seilany
-](https://github.com/hosseinseilani) (https://seilany.ir/) wrote about my remastering tool [penguins-eggs](https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs), integrating with mine know how.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/penguins-eggs-book)
 
-This is not the first book for Hossein Seilany, but it's the first for me and for me it's really hard.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-# Note
-I'm editing exclusively with git, using `code` then publing back.
+## Architecture
+
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/penguins-eggs-book.git
+cd penguins-eggs-book
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/penguins-eggs-book`](https://github.com/Interested-Deving-1896/penguins-eggs-book) and mirrored through:
 
 ```
-git add -A
-git commit
-git push
+Interested-Deving-1896/penguins-eggs-book  ──►  OpenOS-Project-OSP/penguins-eggs-book  ──►  OpenOS-Project-Ecosystem-OOC/penguins-eggs-book
 ```
 
-The book will automatically synk after your push, you can see it [here](https://penguins-eggs.gitbook.io/penguins-eggs-book)
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-## Repository
+## Contributors
 
-`https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs-book`
-
-### cloning the book
-
-`git clone https://gitlab.com/openos-project/penguins-eggs_deving/penguins-eggs-book`
-
-### read the book
-
-Just click [here](https://penguins-eggs.gitbook.io/penguins-eggs-book)
-
-This is it's address: `https://penguins-eggs.gitbook.io/penguins-eggs-book`
-
- 
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
 ## Origins
 
-penguins-eggs-book documents:
-- [pieroproietti/penguins-eggs](https://github.com/pieroproietti/penguins-eggs) — the tool this book covers
-- [hosseinseilani/penguins-eggs-book](https://github.com/hosseinseilani/penguins-eggs-book) — original book authored by Hossein Seilany
+<!-- AI:start:origins -->
+_No dependency graph found. Run `generate-dep-graph.yml` to generate `dep-graph/origins.md`._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
